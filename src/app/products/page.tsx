@@ -205,7 +205,7 @@ export default function ProductsPage() {
           <div className="flex-1">
             {/* Controls */}
             <div className="bg-white rounded-lg p-6 mb-6">
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center flex-col gap-2.5 sm:flex-row">
                 <p className="text-gray-600">
                   Showing {filteredProducts.length} of {products.length} products
                 </p>
@@ -283,7 +283,7 @@ export default function ProductsPage() {
                         </div>
                       </div>
                       
-                      <div className={`${viewMode === 'list' ? 'text-right' : 'flex justify-between items-center'}`}>
+                      <div className={`${viewMode === 'list' ? 'text-right' : 'flex flex-col justify-between items-center gap-4'}`}>
                         <div className={viewMode === 'list' ? 'mb-4' : ''}>
                           <div className="text-2xl font-bold text-blue-600">{product.price}</div>
                           <div className="text-sm text-gray-500">{product.priceUnit}</div>
