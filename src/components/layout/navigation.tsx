@@ -25,7 +25,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg"></div>
-            <span className="text-xl font-bold text-gray-900">TileCraft</span>
+            <span className="text-xl font-bold text-gray-900">Smelly Pig Pig</span>
           </Link>
 
           {/* Desktop Navigation */}
