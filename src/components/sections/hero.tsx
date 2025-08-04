@@ -16,7 +16,7 @@ export function HeroSection() {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Discover our extensive collection of ceramic tiles, mosaics, and natural stone. 
-                Create stunning interiors and exteriors with TileCraft's premium quality products.
+                Create stunning interiors and exteriors with TileCraft&apos;s premium quality products.
               </p>
             </div>
 

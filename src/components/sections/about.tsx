@@ -21,7 +21,7 @@ export function AboutSection() {
     {
       icon: Heart,
       title: "Customer First",
-      description: "Your satisfaction is our priority. We're here to make your vision come true."
+      description: "Your satisfaction is our priority. We&apos;re here to make your vision come true."
     }
   ]
 
